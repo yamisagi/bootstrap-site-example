@@ -62,7 +62,9 @@ In this repository, I will build an example site while learning Bootstrap Librar
 
 
   - [x] Project Setup
-
+  - [x] Project Wireframe Setup
+  - [x] Project Assets Setup
+  - [x] HTML Structure 
 
 <p align="center">(Still working on it...)</p>
 
