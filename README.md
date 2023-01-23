@@ -65,6 +65,11 @@ In this repository, I will build an example site while learning Bootstrap Librar
   - [x] Project Wireframe Setup
   - [x] Project Assets Setup
   - [x] HTML Structure 
+  - [x] Bootstrap Setup
+  - [x] Navbar
+  - [x] Collapse Navbar
+  - [x] Font Awesome Icons
+  - [x] Container & Row & Col Usage
 
 <p align="center">(Still working on it...)</p>
 
