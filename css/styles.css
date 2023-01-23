@@ -1,12 +1,68 @@
 #title {
   background-color: #ff4c68;
 }
+body {
+  font-family: "Montserrat";
+}
 h1 {
   font-family: "Montserrat";
-  font-size: 3em;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
+  color: #fff;
+  text-align: left;
+  margin-top: 1.5em;
 }
 #title .container-fluid {
-    padding: 3% 15% 7%;
-  }
+  padding: 3% 15%;
+}
+#title .navbar-brand {
+  font-family: "Ubuntu";
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#title .navbar-brand:hover {
+  color: #ebb5bd;
+}
+#title .nav-item {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+  margin-left: 1.5em;
+}
+#title .rotate-45 {
+  transform: rotate(25deg);
+}
+#features {
+  background-color: #fff;
+  padding: 5% 20% 10% 20%;
+}
+.img-fluid {
+  width: 60%;
+}
+.feature-box {
+ text-align: center;
+}
+.feature-box h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 900;
+  /* line-height: 1.5;   */
+  text-align: center;
+  margin-top: 1.5em;
+}
+.feature-box p {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 1.5em;
+}
+.icons {
+    margin-top: 2em;
+  color: #ff4c68;
+}
+.icons:hover {
+  color: #ef8172;
+}
