@@ -70,6 +70,7 @@ In this repository, I will build an example site while learning Bootstrap Librar
   - [x] Collapse Navbar
   - [x] Font Awesome Icons
   - [x] Container & Row & Col Usage
+  - [x] Style Testimonials Section
 
 <p align="center">(Still working on it...)</p>
 
