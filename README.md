@@ -71,6 +71,7 @@ In this repository, I will build an example site while learning Bootstrap Librar
   - [x] Font Awesome Icons
   - [x] Container & Row & Col Usage
   - [x] Style Testimonials Section
+  - [x] Carousel Usage & Style with Auto Slide
 
 <p align="center">(Still working on it...)</p>
 
