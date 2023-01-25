@@ -149,9 +149,12 @@ h1 {
   background-color: #ff4c68;
   text-align: center;
   padding-bottom: 5%;
+  padding-top: 5%;
+  margin: auto;
+  display: block;
 }
 .press-logo {
-  margin: auto 3%;
+  margin: 0 3%;
   width: 15%;
 }
 
