@@ -34,17 +34,41 @@ h1 {
   margin-top: 2rem;
   transform: rotate(25deg);
 }
+.img-fluid {
+  width: 320px;
+  z-index: 1;
+  position: absolute;
+  left: 30%;
+}
+@media screen and (max-width: 1075px) and (min-width: 1000px) {
+  #title .rotate-45 {
+    transform: rotate(0deg);
+  }
+  .img-fluid {
+    width: 70%;
+    margin-top: 15%;
+  }
+  #features {
+    background-color: #fff;
+    padding: 5% 10% 10% 10%;
+  }
+}
+@media screen and (max-width: 999px) and (min-width: 100px) {
+  #title .rotate-45 {
+    transform: rotate(0deg);
+  }
+  .img-fluid {
+    display: none;
+  }
+}
+
 #features {
   background-color: #fff;
   padding: 5% 20% 10% 20%;
+  position: relative;
 }
 .feature-box {
   text-align: center;
-}
-@media screen and (min-width: 700px) {
-  .img-fluid {
-    margin: 5% 5% 20% 20%;
-  }
 }
 .feature-box h3 {
   font-family: "Montserrat";
@@ -78,7 +102,6 @@ h1 {
   background-color: #ff4c68;
   color: #fff;
   text-align: center;
- 
 }
 .carousel-item {
   padding: 7% 15%;
@@ -124,21 +147,28 @@ h1 {
 }
 
 #pricing h2 {
-  
   font-family: "Montserrat";
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 1.5;
   text-align: center;
 }
-#pricing h3{
+.pricing-header-h2 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 1.5em;
+}
+#pricing h3 {
   font-family: "Montserrat";
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 1.5;
-  text-align: center; 
+  text-align: center;
 }
-.pricing-button{
+.pricing-button {
   margin-top: 2.5em;
 }
 .pricing-header-p {
@@ -148,4 +178,8 @@ h1 {
   line-height: 1.5;
   text-align: center;
   margin-top: 1.5em;
+}
+
+#pricing .row {
+  width: 100%;
 }

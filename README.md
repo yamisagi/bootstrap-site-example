@@ -73,6 +73,7 @@ In this repository, I will build an example site while learning Bootstrap Librar
   - [x] Style Testimonials Section
   - [x] Carousel Usage & Style with Auto Slide
   - [x] Cards Usage & Style with Card Group 
+  - [x] Usage of Z-Index & Position Property 
 
 <p align="center">(Still working on it...)</p>
 
