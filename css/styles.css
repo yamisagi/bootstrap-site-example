@@ -79,7 +79,7 @@ h3 {
   .img-fluid {
     width: 200px;
     position: absolute;
-    left: 550px;
+    left: auto;
     bottom: 10px;
   }
   #features {
